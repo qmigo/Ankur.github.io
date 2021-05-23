@@ -10,6 +10,10 @@
     *{zoom: 1.05;}
     .img{
       display: none;
+      width:500px;
+      height:350px;
+      box-shadow: 3px 3px 2px 1px grey;
+      
     }
     
     </style>
@@ -75,17 +79,17 @@
           </div>
           <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
             <!-- <img class="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600"> -->
-            <img class="object-cover object-center rounded img" onclick="Click()"onmouseover="Stop()"alt="hero" onmouseout="Start()"src="2.jpg">
-            <img class="object-cover object-center rounded img" onclick="Click()"onmouseover="Stop()"alt="hero" onmouseout="Start()"src="1.jpg">
-            <img class="object-cover object-center rounded img" onclick="Click()"onmouseover="Stop()"alt="hero" onmouseout="Start()"src="5.jpg">
-            <img class="object-cover object-center rounded img" onclick="Click()"onmouseover="Stop()"alt="hero" onmouseout="Start()"src="4.jpg">
-            <img class="object-cover object-center rounded img" onclick="Click()"onmouseover="Stop()"alt="hero" onmouseout="Start()"src="6.jpg">
-            <img class="object-cover object-center rounded img" onclick="Click()"onmouseover="Stop()"alt="hero" onmouseout="Start()"src="7.jpg">
-            <img class="object-cover object-center rounded img" onclick="Click()"onmouseover="Stop()"alt="hero" onmouseout="Start()"src="8.jpg">
-            <img class="object-cover object-center rounded img" onclick="Click()"onmouseover="Stop()"alt="hero" onmouseout="Start()"src="3.jpg">
-            <img class="object-cover object-center rounded img" onclick="Click()"onmouseover="Stop()"alt="hero" onmouseout="Start()"src="9.jpg">
-            <img class="object-cover object-center rounded img" onclick="Click()"onmouseover="Stop()"alt="hero" onmouseout="Start()"src="10.jpg">
-            <img class="object-cover object-center rounded img" onclick="Click()"onmouseover="Stop()"alt="hero" onmouseout="Start()"src="11.jpg">
+            <img class="object-cover object-center rounded img" onclick="Click()"onmouseover="Stop()"alt="hero" onmouseout="Start()"src="src/1.jpg">
+            <img class="object-cover object-center rounded img" onclick="Click()"onmouseover="Stop()"alt="hero" onmouseout="Start()"src="src/2.jpg">
+            <img class="object-cover object-center rounded img" onclick="Click()"onmouseover="Stop()"alt="hero" onmouseout="Start()"src="src/5.jpg">
+            <img class="object-cover object-center rounded img" onclick="Click()"onmouseover="Stop()"alt="hero" onmouseout="Start()"src="src/4.jpg">
+            <img class="object-cover object-center rounded img" onclick="Click()"onmouseover="Stop()"alt="hero" onmouseout="Start()"src="src/6.jpg">
+            <img class="object-cover object-center rounded img" onclick="Click()"onmouseover="Stop()"alt="hero" onmouseout="Start()"src="src/7.jpg">
+            <img class="object-cover object-center rounded img" onclick="Click()"onmouseover="Stop()"alt="hero" onmouseout="Start()"src="src/8.jpg">
+            <img class="object-cover object-center rounded img" onclick="Click()"onmouseover="Stop()"alt="hero" onmouseout="Start()"src="src/3.jpg">
+            <img class="object-cover object-center rounded img" onclick="Click()"onmouseover="Stop()"alt="hero" onmouseout="Start()"src="src/9.jpg">
+            <img class="object-cover object-center rounded img" onclick="Click()"onmouseover="Stop()"alt="hero" onmouseout="Start()"src="src/10.jpg">
+            <img class="object-cover object-center rounded img" onclick="Click()"onmouseover="Stop()"alt="hero" onmouseout="Start()"src="src/11.jpg">
             
           </div>
         </div>
@@ -130,6 +134,8 @@
         var img=document.getElementsByClassName('img');
         let i;
         let photo=0;
+        
+        
         
       img[photo].style.display="flex";          
 
